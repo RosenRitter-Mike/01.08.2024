@@ -15,7 +15,7 @@ print("sorted in reverse by distance from israel", sorted(dist_c, key=lambda cit
 print("sorted by continent", sorted(dist_c, key=lambda city: city[2]));
 print("sorted by continent, then distance", sorted(dist_c, key= lambda city: (city[2], city[1])));
 
-# Ex 6
+# _______________________Ex 6________________________________________________________________________
 
 # מה המשמעות שלהמילהglobalבתוך פונקציה?
 """Global variables can be accessed both inside a function and outside, so making somthing global gives accesses to it to
